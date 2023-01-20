@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* logo css style start here */
+.navbar {
+    line-height: 80px;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.menu li {
+    padding-left: 3px;
+}
+
+.menu li a {
+    color: #3e3e3e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.menu li a:hover {
+    color: #3e3e3e;
+}
+
+/* banner css part start here */
+.banner-img-1 {
+    background-image: url(../images/banner-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-img-2 {
+    background-image: url(../images/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-img-3 {
+    background-image: url(../images/banner-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text-1 {
+    height: 100%;
+
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.banner-text button {
+    width: 168px;
+    height: 44px;
+    padding: 10px 4px;
+    text-transform: uppercase;
+}
+
+/* moment css part start here */
+#moment {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.booking-cart {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: red;
+
+}
+
+.text-main {
+    height: 100%;
+}
+
+.moment-btn {
+    width: 230px;
+    height: 44px;
+    padding: 10px 24px;
+    border: none;
+
+}
+
+.moment-btn i {
+    margin-left: 5px;
+}
+
+/* package css style start here */
+#package {
+    padding-bottom: 92px;
+}
+
+.common-heading {
+    padding-bottom: 108px;
+}
+
+.package-btn {
+    width: 207px;
+    height: 45px;
+    border-radius: 24px;
+    background: #fef5fb;
+    border: none;
+}
+
+.package-items p i {
+    width: 20px;
+    height: 20px;
+    background: #eeecf9;
+    border-radius: 50%;
+    color: #5243C2;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.package-items {
+    transform: scale(1);
+    transition: all linear .3s;
+    position: relative;
+}
+
+.hot {
+    position: absolute;
+    top: -3%;
+    right: 12%;
+    width: 46px;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 20px;
+    background-color: #FF4E4E;
+    display: none;
+    transition: all linear .3s;
+}
+
+.package-items:hover .hot {
+    display: block;
+}
+
+.package-items:hover {
+    transform: scale(1.1);
+    background-color: #3F87F5;
+    border-radius: 24px;
+    padding: 20px;
+    color: #fff;
+}
+
+.package-items:hover .price {
+    color: #fff !important;
+}
+
+.package-items:hover .package-titel {
+    color: #fff !important;
+}
+
+.package-items:hover .package-description {
+    color: #fff !important;
+}
+
+.package-items:hover .package-list {
+    color: #fff !important;
+}
+
+/* clients css style start here */
+#client{
+    padding-bottom: 100px;
+}
+.clients-items {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+
+/* clients css style end here */
+/* question css style start here */
+#question{
+    padding-bottom: 150px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+/* question css style end here */
+/* footer css style start here */
+#footer{
+    background: #0B0D17;
+    padding: 55px 0 85px 0;
+}
+/* footer css style end here */
